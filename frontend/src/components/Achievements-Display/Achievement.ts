@@ -11,8 +11,7 @@ export const Achievement: Achievement[] = [
     id: 1,
     title: 'From Highschool',
     img: '/src/assets/img/Achievement1.jpg',
-    description:
-      'A top Notcher since High School.',
+    description: 'A top Notcher since High School.',
     category: 'Bracelet',
   },
   {
@@ -33,7 +32,8 @@ export const Achievement: Achievement[] = [
     id: 4,
     title: 'College',
     img: '/src/assets/img/Achievement1.jpg',
-    description: 'I was a Top Notcher and also achieved lots of awards while serving as a BM.',
+    description:
+      'I was a Top Notcher and also achieved lots of awards while serving as a BM.',
     category: 'Bracelet',
   },
 ]

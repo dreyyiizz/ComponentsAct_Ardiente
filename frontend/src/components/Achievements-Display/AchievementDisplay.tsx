@@ -10,7 +10,11 @@ export const AchievementDisplay = () => {
           minW={['250px']}
           overflow="hidden"
         >
-          <Image src={Achievement.img} alt={Achievement.title} height={['150px']} />
+          <Image
+            src={Achievement.img}
+            alt={Achievement.title}
+            height={['150px']}
+          />
           <Card.Body gap="2">
             <Card.Title>{Achievement.title}</Card.Title>
             <Card.Description>{Achievement.description}</Card.Description>

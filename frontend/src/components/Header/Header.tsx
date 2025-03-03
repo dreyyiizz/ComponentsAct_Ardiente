@@ -1,5 +1,3 @@
-
-
 export const Navbar = () => {
   return (
     <div className="justify-center items-center flex h-[90px]">

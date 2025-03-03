@@ -9,11 +9,9 @@ import Footer from './components/Footer/Footer'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Provider>
-
       <Navbar />
       <AchievementDisplay />
       <Footer />
-
     </Provider>
   </StrictMode>
 )
