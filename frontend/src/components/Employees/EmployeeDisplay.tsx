@@ -1,7 +1,5 @@
-
-// import { Employee } from '../../../../backend/src/routes/employee'
-import { Employee } from './Employees'
 import { Card, Flex } from '@chakra-ui/react'
+import { Employee } from './Employees'
 
 export const EmployeeDisplay = () => {
   return (
