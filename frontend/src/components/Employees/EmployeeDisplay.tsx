@@ -14,7 +14,7 @@ export const EmployeeDisplay = () => {
                   <Card.Body gap="2">
                     <Card.Title>{Employee.name}</Card.Title>
                     <Card.Description>{Employee.salary < 50000 ? "Senior": "Entry Level"}</Card.Description>
-                    <Card.Description>{Employee.role}</Card.Description>
+                    <Card.Description>{Employee.salary}</Card.Description>
                   </Card.Body>
                 </Card.Root>
               ))}
