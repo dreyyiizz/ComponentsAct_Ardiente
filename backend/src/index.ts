@@ -16,4 +16,7 @@ app.get('/', (req, res) => {
 app.use("/messages",messageRoute)
 
 
+app.listen(PORT, () => {
+  console.log(`Server can be found at http://localhost:${PORT}`)
+})
 
