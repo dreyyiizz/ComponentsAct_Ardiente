@@ -56,9 +56,9 @@ export function TimedTaskDisplay({
                 variant="ghost"
                 size="icon"
                 onClick={onRemove}
-                className="h-8 w-8 -mt-1 -mr-1"
+                className="h-8 w-8 -mt-1 -mr-1 cursor-pointer group"
               >
-                <Trash2 className="h-4 w-4" />
+                <Trash2 className="h-4 w-4 transition-colors group-hover:text-red-500" />
               </Button>
             )}
           </div>
