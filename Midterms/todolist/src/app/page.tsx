@@ -5,7 +5,7 @@ import { TaskFactory } from '@/components/TaskFactory'
 import { TaskManager } from '@/lib/TaskManager'
 import { TaskSortingStrategy } from '@/lib/TaskSortingStrategy'
 import type { Task } from '@/types/Tasks'
-import { Notification } from '@/components/Notification'
+import { Notification } from '@/components/Notification/Notification'
 import { Button } from '@/components/ui/button'
 import { PlusCircle, Clock, CheckSquare, ListTodo } from 'lucide-react'
 import {
